@@ -4,9 +4,9 @@ axios.defaults.headers.common['x-api-key'] =
   'live_dPHL6jmhrFCixGco46716soO480sAjBax8aA1Z0XeQg3VUCxneiSygaEIQyFwRhu';
 
 document.querySelector('cat-info');
-BASE_URL = 'https://api.thecatapi.com/v1/';
-END_POINT = 'breeds';
-END_POINT_IMAGES = 'images/';
+const BASE_URL = 'https://api.thecatapi.com/v1/';
+const END_POINT = 'breeds';
+const END_POINT_IMAGES = 'images/';
 
 export function fetchBreeds() {
   return fetch(`${BASE_URL}${END_POINT}`).then(resp => {
