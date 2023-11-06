@@ -2,10 +2,10 @@ import {
   fetchBreeds,
   fetchCatByBreed,
   fetchCatDiscriptionByBreed,
-} from './cat-api';
+} from '../js/cat-api';
 import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
-import './css/styles.css';
+import '../css/styles.css';
 import Notiflix from 'notiflix';
 
 const ref = {
